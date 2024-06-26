@@ -19,7 +19,7 @@ def main():
     reverb = ReverbEffect()
     delay = DelayEffect()
 
-    #track1.add_effect(reverb)
+    track1.add_effect(reverb)
     track2.add_effect(delay) 
 
     processed_audio1 = track1.apply_effects()
